@@ -29,7 +29,13 @@
   <body>
     <!-- ==== HEADER ==== -->
     <header>
-      <h2 class="logo">COMMUNITY SCIENCE MUSEUM</h2>
+      <!-- Mobile logo -->
+      <h2 class="logo" id="mobile-logo">
+        COMMUNITY <br />SCIENCE <br />MUSEUM
+      </h2>
+      <!-- Desktop logo -->
+      <h2 class="logo" id="desktop-logo">COMMUNITY SCIENCE MUSEUM</h2>
+      <!-- Main header -->
       <nav class="main-nav">
         <ul>
           <li><a href="index.html">Home</a></li>
@@ -40,6 +46,23 @@
           <li><a href="contact.html">Contact</a></li>
         </ul>
       </nav>
+      <!-- Mobile header icon -->
+      <a href="#mobile-menu" aria-label="Menu button">
+        <i class="fa-solid fa-bars"></i>
+      </a>
+      <!-- Mobile-menu -->
+      <div id="mobile-menu">
+        <nav class="mobile-nav" aria-label="Mobile navigation">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="visit.html">Visit</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="exhibits.html">Exhibits</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
     <!-- ==== END HEADER ==== -->
 
