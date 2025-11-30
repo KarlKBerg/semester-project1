@@ -3,6 +3,10 @@
   --logo-font: "Space Grotesk", sans-serif;
   --header-font: "space-mono", monospace;
   --body-font: "Suravaram", serif;
+  /* ==== FONT SIZES ==== */
+  --font-sm: 2.4rem;
+  --font-md: 3.2rem;
+  --font-lg: 5.6rem;
   /* ==== COLORS ==== */
   /* Text colors */
   --primary-txt: #2f2f2f;
