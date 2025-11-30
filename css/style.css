@@ -15,6 +15,11 @@ body {
 #desktop-logo {
   display: none;
 }
+.logo {
+  font-size: var(--font-sm);
+  font-family: var(--logo-font);
+  font-weight: 500;
+}
 nav {
   display: none;
 }
@@ -28,6 +33,11 @@ header {
   display: flex;
   justify-content: space-between;
   padding: var(--space-md) var(--space-xs);
+  align-items: center;
+}
+#mobile-menu-icon {
+  font-size: 5rem;
+  cursor: pointer;
 }
 /* ==== MAIN ==== */
 /* Hero section */
