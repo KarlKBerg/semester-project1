@@ -1,14 +1,20 @@
+@import url("variables.css");
+/* ==== BUTTONS ==== */
+/* Button-lg */
 .button-lg {
   padding: 2rem 6rem;
-  font-size: 3.2rem;
   background-color: var(--btn-bcg);
-  font-weight: 700;
-  color: #141414;
   display: inline-flex;
   align-items: center;
   border-radius: 2rem;
   cursor: pointer;
   box-shadow: 0.2rem 0.4rem 0.4rem 0 rgba(104, 164, 255, 0.3);
+}
+.button-lg h2 {
+  color: var(--btn-txt);
+  font-family: var(--header-font);
+  font-size: var(--font-md);
+  font-weight: 700;
 }
 .main-heading {
   font-size: var(--font-lg);
