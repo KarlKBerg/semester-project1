@@ -10,11 +10,16 @@
   cursor: pointer;
   box-shadow: 0.2rem 0.4rem 0.4rem 0 rgba(104, 164, 255, 0.3);
 }
+.button-lg h2 {
+  color: var(--btn-txt);
+  font-family: var(--heading-font);
+  font-size: var(--font-md);
+  font-weight: 700;
+}
 .button-sm h2,
-.button-lg h2,
 .send-button h2 {
   color: var(--btn-txt);
-  font-family: var(--header-font);
+  font-family: var(--heading-font);
   font-size: var(--font-sm);
   font-weight: 700;
 }
