@@ -64,3 +64,20 @@
 .img-shadow-r {
   box-shadow: 4px 8px 4px 0 rgba(0, 0, 0, 0.25);
 }
+/* ==== FLEX ==== */
+.flex {
+  display: flex;
+}
+/* Flex column */
+.flex-column {
+  flex-direction: column;
+}
+/* Flex center */
+.flex-center {
+  justify-content: center;
+  align-items: center;
+}
+/* Flex space between */
+.flex-space-between {
+  justify-content: space-between;
+}
