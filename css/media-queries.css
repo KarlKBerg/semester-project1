@@ -1,4 +1,4 @@
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 768px) {
   /* ==== HEADER ==== */
   #desktop-logo {
     display: inline-block;
@@ -6,6 +6,8 @@
   #mobile-logo {
     display: none;
   }
+}
+@media screen and (min-width: 1024px) {
   /* Logo */
   .logo {
     font-size: var(--font-md);
