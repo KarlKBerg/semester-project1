@@ -1,0 +1,36 @@
+@media screen and (min-width: 1024px) {
+  /* ==== HEADER ==== */
+  #desktop-logo {
+    display: inline-block;
+  }
+  #mobile-logo {
+    display: none;
+  }
+  /* Logo */
+  .logo {
+    font-size: var(--font-md);
+    font-family: var(--logo-font);
+    font-weight: 700;
+  }
+  /* Navigation */
+  .main-nav ul {
+    display: flex;
+    align-items: center;
+    gap: var(--space-md);
+    font-family: var(--heading-font);
+    font-size: var(--font-sm);
+    font-weight: 400;
+  }
+  /* ==== FOOTER ==== */
+  footer {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: var(--space-xl) var(--space-md);
+    align-items: flex-start;
+  }
+  .secondary-navigation {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-xxs);
+  }
+}
