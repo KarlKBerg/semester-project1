@@ -162,6 +162,9 @@ article h2 {
 article img {
   order: 2;
   margin: 0 var(--space-xs);
+  min-height: 42rem;
+  object-fit: cover;
+  border-radius: 2rem;
 }
 article .card-description {
   order: 3;
