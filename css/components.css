@@ -1,6 +1,23 @@
 @import url("variables.css");
 /* ==== BUTTONS ==== */
 /* Button-lg */
+.button-sm {
+  padding: 1rem 2rem;
+  background-color: var(--btn-bcg);
+  display: inline-flex;
+  align-items: center;
+  border-radius: 2rem;
+  cursor: pointer;
+  box-shadow: 0.2rem 0.4rem 0.4rem 0 rgba(104, 164, 255, 0.3);
+}
+.button-sm h2,
+.button-lg h2,
+.send-button h2 {
+  color: var(--btn-txt);
+  font-family: var(--header-font);
+  font-size: var(--font-sm);
+  font-weight: 700;
+}
 .button-lg {
   padding: 2rem 6rem;
   background-color: var(--btn-bcg);
@@ -10,15 +27,10 @@
   cursor: pointer;
   box-shadow: 0.2rem 0.4rem 0.4rem 0 rgba(104, 164, 255, 0.3);
 }
-.button-lg h2 {
-  color: var(--btn-txt);
-  font-family: var(--header-font);
-  font-size: var(--font-md);
-  font-weight: 700;
-}
-.main-heading {
-  font-size: var(--font-lg);
-  color: var(--main-header-txt);
-  font-family: var(--header-font);
-  font-weight: 700;
+.send-button {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  gap: 10px;
+  background-color: var(--btn-bcg);
 }
