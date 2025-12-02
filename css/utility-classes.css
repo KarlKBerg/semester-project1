@@ -1,0 +1,66 @@
+@import url("variables.css");
+/* ==== MARGINS ==== */
+.mg-top-xs {
+  margin-top: var(--space-xs);
+}
+.mg-top-sm {
+  margin-top: var(--space-sm);
+}
+.pd-top-xs {
+  padding-top: var(--space-xs);
+}
+.mg-bottom-sm {
+  margin-bottom: var(--space-sm);
+}
+.pd-top-sm {
+  padding-top: var(--space-sm);
+}
+.pd-bottom-sm {
+  padding-bottom: var(--space-sm);
+}
+.mg-top-md {
+  margin-top: var(--space-md);
+}
+.pd-top-md {
+  padding-top: var(--space-md);
+}
+.pd-bottom-md {
+  padding-bottom: var(--space-md);
+}
+.mg-bottom-md {
+  margin-bottom: var(--space-md);
+}
+.mg-top-lg {
+  margin-top: var(--space-lg);
+}
+.mg-bottom-lg {
+  margin-bottom: var(--space-lg);
+}
+
+/* ==== SECTION BACKGROUNDS ==== */
+.bcg-green {
+  background-color: var(--section-green);
+  padding: var(--space-sm) 0;
+}
+.bcg-orange {
+  background-color: var(--section-orange);
+  padding: var(--space-sm);
+}
+.bcg-blue {
+  background-color: var(--section-blue);
+  padding: var(--space-sm);
+}
+.bcg-yellow {
+  background-color: var(--section-yellow);
+}
+
+.txt-shadow {
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.img-shadow-l {
+  box-shadow: -4px 8px 4px 0 rgba(0, 0, 0, 0.25);
+}
+.img-shadow-r {
+  box-shadow: 4px 8px 4px 0 rgba(0, 0, 0, 0.25);
+}
