@@ -10,6 +10,7 @@ body {
   color: var(--primary-txt);
   display: flex;
   flex-direction: column;
+  font-family: var(--body-font);
 }
 /* ==== HEADER ==== */
 #desktop-logo {
@@ -56,6 +57,7 @@ header {
   align-items: center;
   text-align: center;
   gap: var(--space-md);
+  margin-top: 1.6rem;
 }
 .hero::before {
   content: "";
@@ -70,4 +72,86 @@ header {
 }
 .hero h1 {
   color: #fff;
+}
+/* ==== HEADINGS ==== */
+.main-heading {
+  font-size: var(--font-lg);
+  color: var(--main-header-txt);
+  font-family: var(--header-font);
+  font-weight: 700;
+}
+.section-header {
+  font-family: var(--header-font);
+  font-size: var(--font-md);
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+}
+.card-header {
+  font-family: var(--header-font);
+  font-size: var(--font-md);
+  font-weight: 400;
+  text-align: center;
+}
+/* ==== EVENTS ==== */
+.events-section {
+  display: flex;
+  flex-direction: column;
+  margin-top: var(--space-lg);
+}
+.content-container {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-lg);
+  margin-top: var(--space-sm);
+}
+.article-card {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+}
+.article-card h2,
+.article-card .card-description,
+.info-card {
+  padding: 0 var(--space-xs);
+}
+.card-header {
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: "Space Mono";
+  font-size: 32px;
+  font-weight: 400;
+}
+article h2 {
+  order: 1;
+}
+article img {
+  order: 2;
+  margin: 0 var(--space-xs);
+}
+article .card-description {
+  order: 3;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xs);
+  align-items: center;
+}
+.card-description-text,
+.info-card p {
+  font-size: var(--font-sm);
+  font-weight: 400;
+  line-height: 157.165%;
+}
+/* ==== INFO CARD ==== */
+.info-card {
+  margin-top: var(--space-lg);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+}
+.info-header {
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: "Space Mono";
+  font-size: var(--font-sm);
+  font-weight: 700;
+  text-align: center;
 }
