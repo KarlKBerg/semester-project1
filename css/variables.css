@@ -1,7 +1,7 @@
 :root {
   /* ==== FONTS ==== */
   --logo-font: "Space Grotesk", sans-serif;
-  --header-font: "space-mono", monospace;
+  --heading-font: "space-mono", monospace;
   --body-font: "Suravaram", serif;
   /* ==== FONT SIZES ==== */
   --font-sm: 2.4rem;
