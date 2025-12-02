@@ -111,8 +111,7 @@ header {
   gap: var(--space-sm);
 }
 .article-card h2,
-.article-card .card-description,
-.info-card {
+.article-card .card-description {
   padding: 0 var(--space-xs);
 }
 .card-header {
@@ -147,11 +146,30 @@ article .card-description {
   display: flex;
   flex-direction: column;
   gap: var(--space-sm);
+  padding: var(--space-sm) var(--space-xs);
 }
-.info-header {
+.info-heading {
   text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
   font-family: "Space Mono";
-  font-size: var(--font-sm);
+  font-size: var(--font-md);
   font-weight: 700;
   text-align: center;
+}
+/* Newsletter */
+.info-card form {
+  display: flex;
+  flex-direction: column;
+}
+.info-card form label {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 157.165%;
+}
+.info-card form input {
+  width: 100%;
+  background: #fff;
+  border-radius: 5px;
+  border: 1px solid #000;
+  margin-bottom: var(--space-sm);
+  padding: 0.5rem;
 }
