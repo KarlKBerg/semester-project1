@@ -33,4 +33,6 @@
   justify-content: center;
   gap: 10px;
   background-color: var(--btn-bcg);
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
 }
