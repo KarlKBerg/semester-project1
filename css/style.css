@@ -93,7 +93,7 @@ header {
   font-weight: 400;
   text-align: center;
 }
-/* ==== EVENTS ==== */
+/* ==== SECTIONS ==== */
 .events-section {
   display: flex;
   flex-direction: column;
@@ -173,3 +173,4 @@ article .card-description {
   margin-bottom: var(--space-sm);
   padding: 0.5rem;
 }
+/* ==== Footer ==== */
