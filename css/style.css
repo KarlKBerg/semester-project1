@@ -27,8 +27,45 @@ nav {
 .hero h3 {
   display: none;
 }
+/* Mobile nav */
 #mobile-menu {
   display: none;
+  position: fixed;
+  inset: 0;
+  background: var(--primary-bcg);
+  z-index: 999;
+  height: 52rem;
+  top: 15rem;
+  padding: var(--space-sm) var(--space-xs);
+  align-items: center;
+  color: var(--primary-txt);
+}
+#mobile-menu i {
+  font-size: 5rem;
+  cursor: pointer;
+}
+.close-btn-heading {
+  display: flex;
+  margin: var(--space-sm --space-xs);
+}
+.close-btn-heading h2 {
+  text-align: center;
+  margin: 0 auto;
+}
+#mobile-menu:target {
+  display: block;
+}
+.mobile-nav-items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-xs);
+  margin-top: var(--space-sm);
+  font-family: "Space Mono";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
 header {
   display: flex;
