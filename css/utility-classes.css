@@ -44,11 +44,9 @@
 }
 .bcg-orange {
   background-color: var(--section-orange);
-  padding: var(--space-sm);
 }
 .bcg-blue {
   background-color: var(--section-blue);
-  padding: var(--space-sm);
 }
 .bcg-yellow {
   background-color: var(--section-yellow);

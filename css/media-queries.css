@@ -9,8 +9,22 @@
 }
 @media screen and (min-width: 1000px) {
   /* ==== Images ==== */
+
+  /* Article cards */
+  .article-card {
+    flex-direction: row;
+  }
   article img {
-    height: 600px;
+    width: 56rem;
+    order: 1;
+  }
+  .article-card .card-heading,
+  .article-card .card-description {
+    order: 2;
+  }
+  .article-card .card-heading,
+  .article-card .card-description {
+    flex: 1;
   }
 }
 @media screen and (min-width: 1024px) {
