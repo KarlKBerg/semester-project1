@@ -1,7 +1,7 @@
 :root {
   /* ==== FONTS ==== */
   --logo-font: "Space Grotesk", sans-serif;
-  --heading-font: "space-mono", monospace;
+  --heading-font: "Space Mono", monospace;
   --body-font: "Suravaram", serif;
   /* ==== FONT SIZES ==== */
   --font-sm: 2.4rem;
@@ -25,6 +25,7 @@
   --section-blue: #cfe2ff;
   --section-yellow: #e5e749;
   /* ==== SPACING ==== */
+  --space-xxs: 1.2rem;
   --space-xs: 1.6rem;
   --space-sm: 2.4rem;
   --space-md: 3.2rem;
