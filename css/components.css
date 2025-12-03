@@ -3,6 +3,7 @@
 /* Button-lg */
 .button-sm {
   padding: 1rem 2rem;
+  width: 17.7rem;
   background-color: var(--btn-bcg);
   display: inline-flex;
   align-items: center;
