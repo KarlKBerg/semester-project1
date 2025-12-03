@@ -37,11 +37,22 @@
     gap: var(--space-xxs);
   }
   /* ==== FOOTER ==== */
+  footer {
+    margin-top: var(--space-xxl);
+  }
   .secondary-navigation {
     display: flex;
   }
 }
 @media screen and (min-width: 1440px) {
+  /* ==== NAVIGATION ==== */
+  #mobile-menu-icon {
+    display: none;
+  }
+  nav {
+    display: flex;
+  }
+  /* ==== HERO ==== */
   .hero {
     min-height: 61rem;
   }
@@ -54,11 +65,13 @@
     font-weight: 400;
     width: 77rem;
   }
+  /* ==== SECTIONS ==== */
   .section-heading {
     justify-content: flex-start;
     margin-top: var(--space-xxl);
     margin-left: 148px;
   }
+  /* ==== ARTICLES ==== */
   .article-card {
     display: none;
   }
@@ -80,5 +93,13 @@
   }
   .card-description h2 {
     text-align: left;
+  }
+  /* ==== INFO CARDS ==== */
+  .info-card h2,
+  .info-card p {
+    width: 68rem;
+  }
+  .send-button {
+    text-align: center;
   }
 }
