@@ -69,6 +69,7 @@
     border-radius: 2rem;
     padding: var(--space-lg) 116px;
     gap: var(--space-xxl);
+    align-items: center;
   }
   .card-description {
     display: flex;
@@ -76,7 +77,6 @@
     gap: var(--space-md);
     order: 2;
     text-align: left;
-    width: 448px;
   }
   .card-description h2 {
     text-align: left;
