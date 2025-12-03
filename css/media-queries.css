@@ -1,3 +1,4 @@
+@import url(variables.css);
 @media screen and (min-width: 768px) {
   /* ==== HEADER ==== */
   #desktop-logo {
@@ -8,26 +9,6 @@
   }
 }
 @media screen and (min-width: 1000px) {
-  /* ==== Images ==== */
-
-  /* Article cards */
-  .article-card {
-    flex-direction: row;
-  }
-  article img {
-    width: 56rem;
-    order: 1;
-  }
-  .article-card .card-heading,
-  .article-card .card-description {
-    order: 2;
-  }
-  .article-card .card-heading,
-  .article-card .card-description {
-    flex: 1;
-  }
-}
-@media screen and (min-width: 1024px) {
   /* Logo */
   .logo {
     font-size: var(--font-md);
@@ -54,5 +35,50 @@
     display: flex;
     flex-direction: column;
     gap: var(--space-xxs);
+  }
+  /* ==== FOOTER ==== */
+  .secondary-navigation {
+    display: flex;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .hero {
+    min-height: 61rem;
+  }
+  .hero h3 {
+    display: block;
+    color: #fff;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: "Space Mono";
+    font-size: var(--font-sm);
+    font-weight: 400;
+    width: 77rem;
+  }
+  .section-heading {
+    justify-content: flex-start;
+    margin-top: var(--space-xxl);
+    margin-left: 148px;
+  }
+  .article-card {
+    display: none;
+  }
+  .article-card-desktop {
+    display: flex;
+    justify-content: space-between;
+    margin: var(--space-xl) var(--space-md);
+    border-radius: 2rem;
+    padding: var(--space-lg) 116px;
+    gap: var(--space-xxl);
+  }
+  .card-description {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-md);
+    order: 2;
+    text-align: left;
+    width: 448px;
+  }
+  .card-description h2 {
+    text-align: left;
   }
 }
