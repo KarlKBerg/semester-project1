@@ -196,8 +196,10 @@ article img {
 }
 /* Newsletter */
 .info-card form {
+  width: 100%;
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 .info-card form label {
   font-size: 24px;
@@ -206,6 +208,7 @@ article img {
 }
 .info-card form input {
   width: 100%;
+  max-width: 71rem;
   background: #fff;
   border-radius: 5px;
   border: 1px solid #000;
