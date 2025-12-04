@@ -245,3 +245,97 @@ footer a {
 footer a:hover {
   text-decoration: underline;
 }
+/* ==== HEADINGS ==== */
+.page-heading {
+  font-family: "Space Mono";
+  font-size: 56px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: var(--space-lg);
+}
+/* ==== VISIT SECTION ==== */
+#visit i {
+  font-size: 5rem;
+  color: #ff6d59;
+}
+.museum-info {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-lg);
+}
+.visit-container {
+  margin: var(--space-md) var(--space-xs);
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+  padding: var(--space-sm) 0;
+}
+.visit-section p {
+  color: #2f2f2f;
+  font-family: var(--body-font);
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 157.165%;
+}
+.visit-container i {
+  margin: 0 auto;
+}
+.museum-info {
+  display: flex;
+  flex-direction: column;
+}
+.visit-section {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-lg);
+}
+#opening-times {
+  order: 2;
+}
+#find-us {
+  order: 1;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.location a {
+  margin-top: var(--space-sm);
+}
+.times {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 var(--space-xs);
+}
+.times .left,
+.times .right {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xs);
+}
+/* ==== PRACTICAL INFORMATION ==== */
+.left-side .card-heading,
+.right-side .card-heading {
+  text-align: left;
+}
+.left-side,
+.right-side {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+  margin: 0 var(--space-xs);
+}
+.heading-icon {
+  display: flex;
+  gap: var(--space-xs);
+  align-items: center;
+}
+.practical-info-description {
+  margin-top: var(--space-sm);
+}
+#visit .info-card {
+  margin-top: 0;
+}
+#visit .info-card img {
+  display: none;
+}
