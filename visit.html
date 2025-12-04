@@ -65,15 +65,32 @@
         </ul>
       </div>
     </header>
+    <hr />
     <!-- ==== END HEADER ==== -->
-    <main id="visit">
-      <h1 class="page-heading">Visit</h1>
+    <main>
       <section class="visit-section">
-        <!-- ==== MUSEUM INFO ==== -->
+        <h1 class="page-heading">Visit</h1>
+
         <div class="museum-info">
+          <!-- Find us -->
+          <article id="find-us">
+            <h2 class="section-heading">Find us</h2>
+            <div class="visit-item-container bcg-green">
+              <i class="fa-solid fa-location-dot"></i>
+              <div class="location">
+                <p>Bakkan 1, 9357 Tennevoll</p>
+                <p>Phone: +47 12345678</p>
+              </div>
+              <a href="coming-soon.html" class="button-md" role="button">
+                <h2>Book now!</h2>
+              </a>
+            </div>
+          </article>
+          <!-- End find us -->
+          <!-- Opening times -->
           <article id="opening-times">
-            <h2 class="section-heading">Opening times</h2>
-            <div class="visit-container bcg-blue">
+            <h2 class="section-heading">Opening-times</h2>
+            <div class="visit-item-container bcg-blue">
               <i class="fa-regular fa-clock"></i>
               <div class="times">
                 <div class="left-mobile">
@@ -100,143 +117,134 @@
               </div>
             </div>
           </article>
-          <article id="find-us">
-            <h2 class="section-heading">Find us</h2>
-            <div class="visit-container bcg-green">
-              <i class="fa-solid fa-location-dot"></i>
-              <div class="location">
-                <p>Bakkan 1, 9357 Tennevoll</p>
-                <p>Phone: +47 12345678</p>
-                <a href="coming-soon.html" class="button-md" role="button">
-                  <h2>Book now!</h2>
-                </a>
+          <!-- End opening times -->
+          <!-- Practical information -->
+          <article id="practical-info">
+            <h2 class="section-heading">Practical info</h2>
+            <div class="left-side">
+              <!-- Addmission article -->
+              <article id="addmission" class="practical-info-container">
+                <div class="heading-icon">
+                  <h2 class="card-heading">Addmission</h2>
+                  <i class="fa-regular fa-ticket"></i>
+                </div>
+                <p>
+                  The museum is free to enter and enjoy by everyone. There are
+                  guided tours that you can read more about under the Tour
+                  section.
+                </p>
+              </article>
+              <!-- End addmission article -->
+              <!-- Accessibility article-->
+              <article id="accessibility" class="practical-info-container">
+                <div class="heading-icon">
+                  <h2 class="card-heading">Accessibility</h2>
+                  <i class="fa-regular fa-person-limbs-wide"></i>
+                </div>
+                <p>
+                  The museum has wheelchair accessibility ramps. It also has
+                  audio guides and braille display signs for the visually
+                  impaired.
+                </p>
+              </article>
+              <!-- End accessibility article -->
+              <!-- Food and drinks article -->
+              <article id="food-and-drinks" class="practical-info-container">
+                <div class="heading-icon">
+                  <h2 class="card-heading">Food and drinks</h2>
+                  <i class="fa-regular fa-mug"></i>
+                </div>
+                <p>
+                  There is a café attached to the museum where you can get light
+                  lunches, soft drinks, coffee, snacks and more.
+                </p>
+              </article>
+              <!-- End food and drinks article -->
+            </div>
+            <div class="right-side">
+              <!-- Tour article-->
+              <article id="tour" class="practical-info-container">
+                <div class="heading-icon">
+                  <h2 class="card-heading">Tour</h2>
+                  <i class="fa-regular fa-flag"></i>
+                </div>
+                <p>
+                  There are guided tours of the museum that leave every hour.
+                  These tours are 70 NOK per person and include a handy printed
+                  guide of the museum.
+                </p>
+                <p>
+                  If you would like to organise a guided tour for your group of
+                  6 or more people, please contact us to arrange the tour.
+                </p>
+              </article>
+              <!-- End tour article -->
+              <!-- Shop article -->
+              <article id="shop" class="practical-info-container">
+                <div class="heading-icon">
+                  <h2 class="card-heading">Shop</h2>
+                  <i class="fa-regular fa-shop"></i>
+                </div>
+                <p>
+                  Our shop offers a range of memorabilia from the museum as well
+                  as great gifts and activity packs that allow you to continue
+                  to explore science even after you’ve left the museum.
+                </p>
+              </article>
+              <!-- End shop article -->
+            </div>
+          </article>
+          <!-- End practical information-->
+          <!-- Teachers and researchers -->
+          <div class="teachers-and-researchers">
+            <h2 class="section-heading">Teachers and researchers</h2>
+            <!-- Teachers -->
+            <article id="teachers" class="visit-info-card bcg-yellow">
+              <img
+                src="assets/images/teacher.jpg"
+                alt="Teacher giving a lesson in science."
+                class="img-shadow-r"
+              />
+              <div class="heading-icon">
+                <h2 class="card-heading">For teachers</h2>
+                <i class="fa-regular fa-chalkboard-user"></i>
               </div>
-            </div>
-          </article>
+              <p class="card-description-text">
+                As a community-driven museum, we want to work with schools to
+                create places of learning and exploring. Our team are on hand to
+                give your students guided tours of the museum, teach them in our
+                learning laboratory, and provide great video presentations that
+                will excite and inspire them. Please get in touch with us here
+                to find out more about our facilities and to arrange a time to
+                bring your students through for a visit.
+              </p>
+            </article>
+            <!-- End teachers -->
+            <!-- Researchers -->
+            <article id="researchers" class="visit-info-card bcg-orange">
+              <img
+                src="assets/images/scientist.jpg"
+                alt="Scientist looking through a microscope."
+                class="img-shadow-l"
+              />
+              <div class="card-description">
+                <div class="heading-icon">
+                  <h2 class="card-heading">For researchers</h2>
+                  <i class="fa-regular fa-flask"></i>
+                </div>
+                <p class="card-description-text">
+                  Are you looking to get involved with our team of researchers
+                  and academics? Our museum offers various ways for you to use
+                  our resources and contribute towards them. We have online
+                  records, laboratory space, and a working relationship with a
+                  number of universities around the country.
+                </p>
+              </div>
+            </article>
+            <!-- End researchers-->
+          </div>
+          <!-- End teachers and researchers -->
         </div>
-        <!-- ==== END MUSEUM INFO ==== -->
-        <!-- ==== PRACTICAL INFORMATION ==== -->
-        <h2 class="section-heading">Practical info</h2>
-        <section class="left-side">
-          <!-- Addmission article -->
-          <article id="addmission">
-            <div class="heading-icon">
-              <h2 class="card-heading">Addmission</h2>
-              <i class="fa-regular fa-ticket"></i>
-            </div>
-            <p class="practical-info-description">
-              The museum is free to enter and enjoy by everyone. There are
-              guided tours that you can read more about under the Tour section.
-            </p>
-          </article>
-          <!-- End addmission article -->
-          <!-- Accessibility article-->
-          <article id="accessibility">
-            <div class="heading-icon">
-              <h2 class="card-heading">Accessibility</h2>
-              <i class="fa-regular fa-person-limbs-wide"></i>
-            </div>
-            <p class="practical-info-description">
-              The museum has wheelchair accessibility ramps. It also has audio
-              guides and braille display signs for the visually impaired.
-            </p>
-          </article>
-          <!-- End accessibility article -->
-          <!-- Food and drinks article -->
-          <article id="food-and-drinks">
-            <div class="heading-icon">
-              <h2 class="card-heading">Food and drinks</h2>
-              <i class="fa-regular fa-mug"></i>
-            </div>
-            <p class="practical-info-description">
-              There is a café attached to the museum where you can get light
-              lunches, soft drinks, coffee, snacks and more.
-            </p>
-          </article>
-          <!-- End food and drinks article -->
-        </section>
-        <section class="right-side">
-          <!-- Tour article-->
-          <article id="tour">
-            <div class="heading-icon">
-              <h2 class="card-heading">Tour</h2>
-              <i class="fa-regular fa-flag"></i>
-            </div>
-            <p class="practical-info-description">
-              There are guided tours of the museum that leave every hour. These
-              tours are 70 NOK per person and include a handy printed guide of
-              the museum.
-            </p>
-            <p class="practical-info-description">
-              If you would like to organise a guided tour for your group of 6 or
-              more people, please contact us to arrange the tour.
-            </p>
-          </article>
-          <!-- End tour article -->
-          <!-- Shop article -->
-          <article id="shop">
-            <div class="heading-icon">
-              <h2 class="card-heading">Shop</h2>
-              <i class="fa-regular fa-shop"></i>
-            </div>
-            <p class="practical-info-description">
-              Our shop offers a range of memorabilia from the museum as well as
-              great gifts and activity packs that allow you to continue to
-              explore science even after you’ve left the museum.
-            </p>
-          </article>
-          <!-- End shop article -->
-        </section>
-        <!-- ==== END PRACTICAL INFORMATION ==== -->
-        <!-- ==== TEACHERS AND RESEARCHERS ==== -->
-        <h2 class="section-heading">Teachers and researchers</h2>
-        <!-- ==== END TEACHERS AND RESEARCHERS ==== -->
-        <!-- Teachers article -->
-        <article class="info-card img-left bcg-yellow" id="teachers">
-          <img
-            src="assets/images/teacher.jpg"
-            alt="Teacher giving a lesson in science."
-            class="img-shadow-r"
-          />
-          <div class="card-description">
-            <div class="heading-icon">
-              <h2 class="card-heading">For teachers</h2>
-              <i class="fa-regular fa-chalkboard-user"></i>
-            </div>
-            <p class="card-description-text">
-              As a community-driven museum, we want to work with schools to
-              create places of learning and exploring. Our team are on hand to
-              give your students guided tours of the museum, teach them in our
-              learning laboratory, and provide great video presentations that
-              will excite and inspire them. Please get in touch with us here to
-              find out more about our facilities and to arrange a time to bring
-              your students through for a visit.
-            </p>
-          </div>
-        </article>
-        <!-- End teachers article-->
-        <!-- Researchers article -->
-        <article class="info-card img-left bcg-orange" id="researchers">
-          <img
-            src="assets/images/scientist.jpg"
-            alt="Scientist looking through a microscope."
-            class="img-shadow-l"
-          />
-          <div class="card-description">
-            <div class="heading-icon">
-              <h2 class="card-heading">For researchers</h2>
-              <i class="fa-regular fa-flask"></i>
-            </div>
-            <p class="card-description-text">
-              Are you looking to get involved with our team of researchers and
-              academics? Our museum offers various ways for you to use our
-              resources and contribute towards them. We have online records,
-              laboratory space, and a working relationship with a number of
-              universities around the country.
-            </p>
-          </div>
-        </article>
-        <!-- End researchers article-->
       </section>
     </main>
     <!-- ==== FOOTER ==== -->
