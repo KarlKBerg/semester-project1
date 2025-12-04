@@ -254,6 +254,9 @@ footer a:hover {
   margin-bottom: var(--space-lg);
 }
 /* ==== VISIT SECTION ==== */
+#visit .section-heading {
+  margin: 0 var(--space-xs);
+}
 #visit i {
   font-size: 5rem;
   color: #ff6d59;
