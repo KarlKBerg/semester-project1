@@ -11,6 +11,15 @@
   cursor: pointer;
   box-shadow: 0.2rem 0.4rem 0.4rem 0 rgba(104, 164, 255, 0.3);
 }
+.button-md {
+  padding: 2rem 6rem;
+  background-color: var(--btn-bcg);
+  display: inline-flex;
+  align-items: center;
+  border-radius: 2rem;
+  cursor: pointer;
+  box-shadow: 0.2rem 0.4rem 0.4rem 0 rgba(104, 164, 255, 0.3);
+}
 .button-lg h2 {
   color: var(--btn-txt);
   font-family: var(--heading-font);
@@ -18,7 +27,8 @@
   font-weight: 700;
 }
 .button-sm h2,
-.send-button h2 {
+.send-button h2,
+.button-md h2 {
   color: var(--btn-txt);
   font-family: var(--heading-font);
   font-size: var(--font-sm);
