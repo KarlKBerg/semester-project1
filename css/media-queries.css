@@ -50,25 +50,6 @@
     flex-direction: column;
     gap: var(--space-xxs);
   }
-  /* ==== VISIT ==== */
-  .times .left-mobile {
-    display: none;
-  }
-  .left-desktop {
-    display: flex;
-    flex-direction: column;
-    gap: var(--space-xs);
-  }
-  .museum-info {
-    flex-direction: row;
-    justify-content: center;
-  }
-  .museum-info #opening-times {
-    order: 1;
-  }
-  .museum-info article {
-    width: 45rem;
-  }
 }
 @media screen and (min-width: 1440px) {
   /* ==== NAVIGATION ==== */
@@ -147,6 +128,7 @@
     text-align: center;
   }
   /* ==== VISIT ==== */
+
   /* ==== FOOTER ==== */
   footer {
     margin-top: 0;
