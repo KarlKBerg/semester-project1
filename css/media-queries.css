@@ -18,6 +18,9 @@
     font-family: var(--logo-font);
     font-weight: 700;
   }
+  .article-card-desktop img {
+    width: 56rem;
+  }
   /* Navigation */
   .main-nav ul {
     display: flex;
