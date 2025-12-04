@@ -74,8 +74,15 @@
   /* ==== SECTIONS ==== */
   .section-heading {
     justify-content: flex-start;
-    margin-top: var(--space-xxl);
+    margin: var(--space-xxl) 0 var(--space-xl) 0;
     margin-left: 148px;
+  }
+  .events-section {
+    margin-top: 0;
+  }
+  .content-container {
+    margin-top: 0;
+    gap: var(--space-xxl);
   }
   /* ==== ARTICLES ==== */
   .article-card {
@@ -84,7 +91,7 @@
   .article-card-desktop {
     display: flex;
     justify-content: space-between;
-    margin: var(--space-xl) var(--space-md);
+    margin: 0 var(--space-md);
     border-radius: 2rem;
     padding: var(--space-lg) 116px;
     gap: var(--space-xxl);
@@ -100,20 +107,27 @@
   .card-description h2 {
     text-align: left;
   }
+  /* Image right */
   .img-right {
     display: flex;
-    justify-content: flex-end;
   }
   .img-right .card-description {
     order: 1;
   }
 
   /* ==== INFO CARDS ==== */
+  .info-card {
+    margin: var(--space-xxl) 0;
+  }
   .info-card h2,
   .info-card p {
     width: 68rem;
   }
   .send-button {
     text-align: center;
+  }
+  /* ==== FOOTER ==== */
+  footer {
+    margin-top: 0;
   }
 }
