@@ -33,6 +33,7 @@
   /* ==== INFO CARD ==== */
   .info-card form {
     width: 71rem;
+    align-items: baseline;
   }
   .info-card input {
     width: 71rem;
