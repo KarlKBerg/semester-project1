@@ -7,6 +7,9 @@
   #mobile-logo {
     display: none;
   }
+  .send-button {
+    width: 14.5rem;
+  }
 }
 @media screen and (min-width: 1000px) {
   /* Logo */
@@ -24,6 +27,13 @@
     font-size: var(--font-sm);
     font-weight: 400;
   }
+  /* ==== INFO CARD ==== */
+  .info-card form {
+    width: 71rem;
+  }
+  .info-card input {
+    width: 71rem;
+  }
   /* ==== FOOTER ==== */
   footer {
     flex-direction: row;
@@ -35,13 +45,6 @@
     display: flex;
     flex-direction: column;
     gap: var(--space-xxs);
-  }
-  /* ==== FOOTER ==== */
-  footer {
-    margin-top: var(--space-xxl);
-  }
-  .secondary-navigation {
-    display: flex;
   }
 }
 @media screen and (min-width: 1440px) {
