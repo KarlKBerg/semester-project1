@@ -40,7 +40,6 @@
 /* ==== SECTION BACKGROUNDS ==== */
 .bcg-green {
   background-color: var(--section-green);
-  padding: var(--space-sm) 0;
 }
 .bcg-orange {
   background-color: var(--section-orange);
