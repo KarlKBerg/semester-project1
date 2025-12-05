@@ -13,10 +13,16 @@
 }
 @media screen and (min-width: 1000px) {
   /* Logo */
+  hr {
+    display: block;
+  }
   .logo {
     font-size: var(--font-md);
     font-family: var(--logo-font);
     font-weight: 700;
+  }
+  .page-heading {
+    margin: var(--space-xl) 0;
   }
   .article-card-desktop img {
     width: 56rem;
@@ -74,9 +80,7 @@
   }
   /* ==== SECTIONS ==== */
   .section-heading {
-    justify-content: flex-start;
-    margin: var(--space-xxl) 0 var(--space-xl) 0;
-    margin-left: 148px;
+    justify-content: center;
   }
   .events-section {
     margin-top: 0;
@@ -115,11 +119,7 @@
   .img-right .card-description {
     order: 1;
   }
-
   /* ==== INFO CARDS ==== */
-  .info-card {
-    margin: var(--space-xxl) 0;
-  }
   .info-card h2,
   .info-card p {
     width: 68rem;
@@ -127,10 +127,22 @@
   .send-button {
     text-align: center;
   }
-  /* ==== VISIT ==== */
-
+  /* Events */
+  #events .info-card .info-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: var(--space-xxl);
+  }
+  #events .info-card img {
+    display: inline-block;
+    order: 1;
+  }
+  #events .info-card p {
+    order: 2;
+  }
   /* ==== FOOTER ==== */
   footer {
-    margin-top: 0;
+    margin-top: var(--space-xxl);
   }
 }
