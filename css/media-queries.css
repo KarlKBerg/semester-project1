@@ -36,6 +36,24 @@
     font-size: var(--font-sm);
     font-weight: 400;
   }
+  /* Museum info */
+  .vital-info {
+    display: flex;
+    justify-content: center;
+    gap: 248px;
+  }
+  .section-heading {
+    justify-content: flex-start;
+    text-align: left;
+    margin-left: 148px;
+  }
+  #find-us,
+  #opening-times {
+    width: 45rem;
+  }
+  #find-us {
+    order: 2;
+  }
   /* ==== INFO CARD ==== */
   .info-card form {
     width: 71rem;
@@ -43,6 +61,13 @@
   }
   .info-card input {
     width: 71rem;
+  }
+  .visit-info-card {
+    padding-left: 149px;
+    display: flex;
+  }
+  .article-card-desktop img {
+    display: block;
   }
   /* ==== FOOTER ==== */
   footer {
@@ -79,9 +104,6 @@
     width: 77rem;
   }
   /* ==== SECTIONS ==== */
-  .section-heading {
-    justify-content: center;
-  }
   .events-section {
     margin-top: 0;
   }
@@ -140,6 +162,32 @@
   }
   #events .info-card p {
     order: 2;
+  }
+  .practical-container {
+    display: flex;
+    margin: 0 148px;
+    justify-content: space-between;
+  }
+  .left-side {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-xxl);
+  }
+  .right-side {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-xxl);
+  }
+  .practical-info-container {
+    width: 448px;
+  }
+  #practical-info {
+    margin: var(--space-xxl) 0;
+  }
+  .teachers-and-researchers {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-xxl);
   }
   /* ==== FOOTER ==== */
   footer {
