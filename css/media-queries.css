@@ -189,6 +189,23 @@
     flex-direction: column;
     gap: var(--space-xxl);
   }
+  .visit-info-card img {
+    display: block;
+    width: 56rem;
+    height: 42rem;
+  }
+  .teachers-and-researchers p {
+  }
+  .visit-info-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 var(--space-md);
+    border-radius: 2rem;
+    padding: var(--space-lg) 116px;
+    gap: var(--space-xxl);
+    align-items: center;
+  }
   /* ==== FOOTER ==== */
   footer {
     margin-top: var(--space-xxl);
