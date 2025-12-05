@@ -335,7 +335,6 @@ footer a:hover {
   gap: var(--space-md);
 }
 .teachers-and-researchers .section-heading {
-  margin-left: var(--space-xs);
   margin-bottom: 0;
 }
 .teachers-and-researchers img {
