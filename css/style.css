@@ -344,3 +344,15 @@ footer a:hover {
 .visit-info-card {
   padding: var(--space-sm) var(--space-xs);
 }
+.date-heading {
+  font-family: var(--heading-font);
+  font-size: 24px;
+  font-weight: 700;
+  text-align: right;
+}
+.date-heading-left {
+  font-family: var(--heading-font);
+  font-size: 24px;
+  font-weight: 700;
+  text-align: left;
+}
