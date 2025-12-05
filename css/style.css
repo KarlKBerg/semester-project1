@@ -340,9 +340,6 @@ footer a:hover {
 .teachers-and-researchers img {
   display: none;
 }
-.visit-info-card {
-  padding: var(--space-sm) var(--space-xs);
-}
 .date-heading {
   font-family: var(--heading-font);
   font-size: 24px;
@@ -354,6 +351,12 @@ footer a:hover {
   font-size: 24px;
   font-weight: 700;
   text-align: left;
+}
+.visit-info-card {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+  padding: var(--space-sm) var(--space-xs);
 }
 /* ==== EVENTS ==== */
 #events .info-card img {
