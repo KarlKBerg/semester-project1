@@ -391,14 +391,6 @@ footer a:hover {
   padding: 0.8rem;
   min-height: 16rem;
 }
-.contact-btn {
-  background-color: #cbcbcb;
-  border-radius: 0.5rem;
-  padding: 0.5rem 4rem;
-  display: flex;
-  justify-content: center;
-  margin: 2.4rem 0;
-}
 .contact-message {
   display: flex;
   gap: 0.8rem;
