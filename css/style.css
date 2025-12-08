@@ -391,6 +391,7 @@ footer a:hover {
   background-color: #fff;
   padding: 0.8rem;
   min-height: 16rem;
+  font-size: var(--font-sm);
 }
 .contact-message {
   display: flex;
