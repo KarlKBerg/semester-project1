@@ -170,7 +170,8 @@ article img {
 .card-description-text,
 .info-card p,
 .about-section p,
-.contact-info p {
+.contact-info p,
+.coming-soon-content p {
   font-size: var(--font-sm);
   font-weight: 400;
   line-height: 157.165%;
@@ -411,3 +412,9 @@ footer a:hover {
   gap: var(--space-lg);
 }
 /* ==== COMING SOON ==== */
+.coming-soon-content {
+  margin: var(--space-lg) var(--space-xs);
+}
+.go-back-btn i {
+  font-size: var(--font-md);
+}
