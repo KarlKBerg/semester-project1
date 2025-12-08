@@ -82,33 +82,41 @@
             <input type="email" id="email" name="email" required />
 
             <label for="message">Message:</label>
-            <textarea name="message" id="message" required></textarea>
+            <textarea name="message" id="message" required>
+Enter message here...</textarea
+            >
 
             <a href="coming-soon.html" role="button" class="contact-btn"
-              >Send</a
+              ><h2>Send</h2></a
             >
             <div class="contact-message">
               <i class="fa-solid fa-x"></i>
-              <p>All forms must be filled out before sending</p>
+              <p>All forms must be filled out.</p>
             </div>
           </form>
         </article>
-        <article class="private-events">
-          <h2 class="section-heading">Private events</h2>
-          <p>
-            For private events or tours, please contact us through the contact
-            form, phone, or the information desk in the museum
-          </p>
-        </article>
-        <article class="Teachers and researchers">
-          <h2 class="section-heading">Private events</h2>
-          <p>
-            To schedule a visit from a class or to contribute to the museum,
-            please contact us through the contact form above. You could also
-            schedule a meeting through the information desk, but we can’t
-            guarantee same-day meetings.
-          </p>
-        </article>
+        <div class="contact-info">
+          <article>
+            <div class="contact-container">
+              <h2 class="section-heading">Private events</h2>
+              <p>
+                For private events or tours, please contact us through the
+                contact form, phone, or the information desk in the museum
+              </p>
+            </div>
+          </article>
+          <article>
+            <div class="contact-container">
+              <h2 class="section-heading">Teachers and researchers</h2>
+              <p>
+                To schedule a visit from a class or to contribute to the museum,
+                please contact us through the contact form above. You could also
+                schedule a meeting through the information desk, but we can’t
+                guarantee same-day meetings.
+              </p>
+            </div>
+          </article>
+        </div>
       </section>
     </main>
     <!-- ==== END MAIN ====-->
