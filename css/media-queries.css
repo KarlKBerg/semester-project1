@@ -63,10 +63,21 @@
     width: 71rem;
   }
   .visit-info-card {
-    padding-left: 149px;
+    padding-left: 148px;
   }
   .article-card-desktop img {
     display: block;
+  }
+
+  #our-vision p {
+    padding: 0 148px;
+  }
+  .get-involved {
+    padding: var(--space-md) 0;
+  }
+  .get-involved p,
+  .get-involved .card-heading {
+    padding: 0 148px;
   }
   /* ==== FOOTER ==== */
   footer {
@@ -202,6 +213,20 @@
     padding: var(--space-lg) 116px;
     gap: var(--space-xxl);
     align-items: center;
+  }
+  .get-involved-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .get-involved p,
+  .get-involved .card-heading {
+    padding: 0 var(--space-md);
+  }
+  .get-involved .section-heading {
+    justify-content: center;
+  }
+  .get-involved-item {
   }
   /* ==== FOOTER ==== */
   footer {
