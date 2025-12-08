@@ -16,9 +16,7 @@ body {
 nav,
 .hero h3,
 .secondary-navigation,
-#desktop-logo {
-  display: none;
-}
+#desktop-logo,
 hr {
   display: none;
 }
@@ -123,7 +121,6 @@ header {
   font-family: var(--heading-font);
   font-size: var(--font-md);
   font-weight: 700;
-  display: flex;
   justify-content: center;
 }
 .card-heading {
