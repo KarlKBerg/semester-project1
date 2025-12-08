@@ -1,40 +1,16 @@
 @import url("variables.css");
-/* ==== MARGINS ==== */
-.mg-top-xs {
-  margin-top: var(--space-xs);
+/* ==== Spacing ==== */
+/* Margin */
+.mg-tb {
+  margin: 4.8rem 0 3.2rem 0;
 }
-.mg-top-sm {
-  margin-top: var(--space-sm);
+.mg-lr {
+  margin: 0 1.6rem;
 }
-.pd-top-xs {
-  padding-top: var(--space-xs);
+/* Padding */
+.pd-tb {
 }
-.mg-bottom-sm {
-  margin-bottom: var(--space-sm);
-}
-.pd-top-sm {
-  padding-top: var(--space-sm);
-}
-.pd-bottom-sm {
-  padding-bottom: var(--space-sm);
-}
-.mg-top-md {
-  margin-top: var(--space-md);
-}
-.pd-top-md {
-  padding-top: var(--space-md);
-}
-.pd-bottom-md {
-  padding-bottom: var(--space-md);
-}
-.mg-bottom-md {
-  margin-bottom: var(--space-md);
-}
-.mg-top-lg {
-  margin-top: var(--space-lg);
-}
-.mg-bottom-lg {
-  margin-bottom: var(--space-lg);
+.pd-lr {
 }
 
 /* ==== SECTION BACKGROUNDS ==== */
