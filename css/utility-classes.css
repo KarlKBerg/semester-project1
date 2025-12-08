@@ -4,15 +4,15 @@
 .mg-tb {
   margin: 4.8rem 0 3.2rem 0;
 }
+.mg-top {
+  margin-top: 4.8rem;
+}
+.mg-bottom {
+  margin-bottom: 3.2rem;
+}
 .mg-lr {
   margin: 0 1.6rem;
 }
-/* Padding */
-.pd-tb {
-}
-.pd-lr {
-}
-
 /* ==== SECTION BACKGROUNDS ==== */
 .bcg-green {
   background-color: var(--section-green);
