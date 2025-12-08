@@ -64,7 +64,6 @@
   }
   .visit-info-card {
     padding-left: 149px;
-    display: flex;
   }
   .article-card-desktop img {
     display: block;
@@ -83,6 +82,9 @@
   }
   .mg-tb {
     margin: 12rem 0 8rem 14.6rem;
+  }
+  .mg-top {
+    margin-top: 12rem;
   }
 }
 @media screen and (min-width: 1440px) {
@@ -184,13 +186,9 @@
   .practical-info-container {
     width: 448px;
   }
-  #practical-info {
-    margin: var(--space-xxl) 0;
-  }
   .teachers-and-researchers {
     display: flex;
     flex-direction: column;
-    gap: var(--space-xxl);
   }
   .visit-info-card img {
     display: block;
@@ -198,10 +196,8 @@
     height: 42rem;
   }
   .visit-info-card {
-    display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: 0 var(--space-md);
     border-radius: 2rem;
     padding: var(--space-lg) 116px;
     gap: var(--space-xxl);
