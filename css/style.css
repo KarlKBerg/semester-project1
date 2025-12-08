@@ -168,7 +168,8 @@ article img {
   align-items: center;
 }
 .card-description-text,
-.info-card p {
+.info-card p,
+.about-section p {
   font-size: var(--font-sm);
   font-weight: 400;
   line-height: 157.165%;
@@ -322,16 +323,14 @@ footer a:hover {
 .teachers-and-researchers img {
   display: none;
 }
-.date-heading {
+.date-heading,
+.date-heading-left {
   font-family: var(--heading-font);
   font-size: 24px;
   font-weight: 700;
   text-align: right;
 }
 .date-heading-left {
-  font-family: var(--heading-font);
-  font-size: 24px;
-  font-weight: 700;
   text-align: left;
 }
 .visit-info-card {
@@ -343,4 +342,22 @@ footer a:hover {
 /* ==== EVENTS ==== */
 #events .info-card img {
   display: none;
+}
+/* ==== ABOUT ==== */
+#our-vision {
+  padding: 0 var(--space-xs);
+}
+.get-involved {
+  padding: var(--space-sm) var(--space-xs);
+}
+.get-involved-container {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+}
+.about-section .section-heading,
+.about-section .card-heading {
+  justify-content: flex-start;
+  margin-bottom: var(--space-sm);
+  text-align: left;
 }
