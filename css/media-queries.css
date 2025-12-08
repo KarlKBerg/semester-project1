@@ -68,7 +68,7 @@
   .article-card-desktop img {
     display: block;
   }
-
+  /* ==== ABOUT ==== */
   #our-vision p {
     padding: 0 148px;
   }
@@ -79,18 +79,37 @@
   .get-involved .card-heading {
     padding: 0 148px;
   }
+  /* ==== ABOUT ==== */
+  .contact-section {
+    margin: 0 14.8rem;
+  }
+  .contact-section .section-heading {
+    margin-left: 0;
+    margin-bottom: var(--space-lg);
+  }
+  .contact-section input {
+    margin-bottom: var(--space-md);
+  }
+  .contact-info {
+    gap: var(--space-xxl);
+  }
+  .contact-message {
+    margin-bottom: var(--space-xxl);
+  }
   /* ==== FOOTER ==== */
   footer {
     flex-direction: row;
     justify-content: space-between;
     padding: var(--space-xl) var(--space-md);
     align-items: flex-start;
+    margin-top: var(--space-xxl);
   }
   .secondary-navigation {
     display: flex;
     flex-direction: column;
     gap: var(--space-xxs);
   }
+  /* ==== UTILITY CLASSES ==== */
   .mg-tb {
     margin: 12rem 0 8rem 14.6rem;
   }
@@ -214,6 +233,7 @@
     gap: var(--space-xxl);
     align-items: center;
   }
+  /* ==== ABOUT ==== */
   .get-involved-container {
     display: flex;
     flex-direction: row;
