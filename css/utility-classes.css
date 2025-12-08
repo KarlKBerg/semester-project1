@@ -42,15 +42,17 @@
   display: flex;
 }
 /* Flex column */
-.flex-column {
+.flex-col {
   flex-direction: column;
 }
 /* Flex center */
-.flex-center {
+.jst-cen {
   justify-content: center;
+}
+.al-cen {
   align-items: center;
 }
 /* Flex space between */
-.flex-space-between {
+.space-btw {
   justify-content: space-between;
 }
