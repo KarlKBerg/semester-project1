@@ -96,6 +96,16 @@
   .contact-message {
     margin-bottom: var(--space-xxl);
   }
+  /* === COMING SOON */
+  .coming-soon-content {
+    margin: var(--space-xl) 14.8rem;
+  }
+  .coming-soon-content .section-heading {
+    margin-left: 0;
+  }
+  .go-back-btn {
+    margin-top: var(--space-lg);
+  }
   /* ==== FOOTER ==== */
   footer {
     flex-direction: row;
@@ -245,6 +255,11 @@
   }
   .get-involved .section-heading {
     justify-content: center;
+  }
+  /* ==== COMING SOON ==== */
+  .coming-soon-content {
+    margin: 0 auto;
+    width: 68rem;
   }
   /* ==== FOOTER ==== */
   footer {
