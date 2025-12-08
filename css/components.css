@@ -28,7 +28,8 @@
 }
 .button-sm h2,
 .send-button h2,
-.button-md h2 {
+.button-md h2,
+.contact-btn h2 {
   color: var(--btn-txt);
   font-family: var(--heading-font);
   font-size: var(--font-sm);
@@ -51,4 +52,12 @@
   background-color: var(--btn-bcg);
   padding: 0.5rem 1rem;
   border-radius: 0.5rem;
+}
+.contact-btn {
+  background-color: #cbcbcb;
+  border-radius: 0.5rem;
+  padding: 0.5rem 4rem;
+  display: flex;
+  justify-content: center;
+  margin: 2.4rem 0;
 }
