@@ -169,7 +169,8 @@ article img {
 }
 .card-description-text,
 .info-card p,
-.about-section p {
+.about-section p,
+.contact-info p {
   font-size: var(--font-sm);
   font-weight: 400;
   line-height: 157.165%;
@@ -361,3 +362,60 @@ footer a:hover {
   margin-bottom: var(--space-sm);
   text-align: left;
 }
+/* ==== CONTACT ==== */
+.contact-section {
+  margin: 0 var(--space-xs);
+}
+.contact-section .section-heading {
+  justify-content: flex-start;
+  margin-bottom: var(--space-sm);
+}
+.contact-section form {
+  display: flex;
+  flex-direction: column;
+}
+.contact-section label {
+  font-family: var(--heading-font);
+  font-size: var(--font-sm);
+  font-weight: 700;
+  margin-bottom: 0.8rem;
+}
+.contact-section input {
+  border-radius: 0.5rem;
+  background-color: #fff;
+  padding: 1rem 2rem;
+  margin-bottom: var(--space-sm);
+}
+.contact-section textarea {
+  background-color: #fff;
+  padding: 0.8rem;
+  min-height: 16rem;
+}
+.contact-btn {
+  background-color: #cbcbcb;
+  border-radius: 0.5rem;
+  padding: 0.5rem 4rem;
+  display: flex;
+  justify-content: center;
+  margin: 2.4rem 0;
+}
+.contact-message {
+  display: flex;
+  gap: 0.8rem;
+  align-items: center;
+  margin-bottom: var(--space-lg);
+}
+.contact-message i {
+  color: red;
+  font-size: 2rem;
+}
+.contact-message p {
+  font-size: 24px;
+  font-weight: 400;
+}
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-lg);
+}
+/* ==== COMING SOON ==== */
