@@ -58,16 +58,16 @@
   margin-top: var(--space-sm);
 }
 /* Button text */
-.button-lg h2 {
+.button-lg {
   color: var(--btn-txt);
   font-family: var(--heading-font);
   font-size: var(--font-md);
   font-weight: 700;
 }
-.button-sm h2,
-.send-button h2,
-.button-md h2,
-.contact-btn h2 {
+.button-sm,
+.send-button,
+.button-md,
+.contact-btn {
   color: var(--btn-txt);
   font-family: var(--heading-font);
   font-size: var(--font-sm);
