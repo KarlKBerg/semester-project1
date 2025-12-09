@@ -428,3 +428,44 @@ footer a:hover {
 .go-back-btn i {
   font-size: var(--font-md);
 }
+/* ==== MESSAGES ==== */
+/* Success message */
+#success-message {
+  display: none;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #7aff59;
+  font-family: var(--heading-font);
+  font-size: var(--font-sm);
+  font-weight: 700;
+  padding: var(--space-xs);
+  justify-content: center;
+  align-items: center;
+  gap: var(--space-md);
+}
+#success-message:target {
+  display: flex;
+}
+/* Error message */
+#error-message {
+  display: none;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #ff1f00;
+  font-family: var(--heading-font);
+  font-size: var(--font-sm);
+  font-weight: 700;
+  padding: var(--space-xs);
+  justify-content: center;
+  align-items: center;
+  gap: var(--space-md);
+}
+#error-message:target {
+  display: flex;
+}
