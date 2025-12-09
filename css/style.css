@@ -72,7 +72,6 @@ header {
   padding: var(--space-md) var(--space-xs);
   align-items: center;
   display: flex;
-  margin: var(--space-xs);
   justify-content: space-between;
 }
 #mobile-menu-icon {
