@@ -64,6 +64,9 @@ hr {
   font-family: var(--heading-font);
   font-size: 32px;
   font-weight: 700;
+  margin-top: var(--space-sm);
+  padding-bottom: 1.6rem;
+  border-bottom: 1px solid black;
 }
 header {
   padding: var(--space-md) var(--space-xs);
