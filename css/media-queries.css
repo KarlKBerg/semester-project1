@@ -36,6 +36,19 @@
     font-size: var(--font-sm);
     font-weight: 400;
   }
+  .main-nav li:hover {
+    cursor: pointer;
+    color: #ff8979;
+    text-decoration: underline;
+  }
+  .main-nav li:active {
+    color: var(--primary-txt);
+    text-decoration: none;
+  }
+  .main-nav li:focus {
+    border: 2px solid #ff6d59;
+  }
+
   /* Museum info */
   .vital-info {
     display: flex;
