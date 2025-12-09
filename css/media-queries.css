@@ -36,6 +36,9 @@
     font-size: var(--font-sm);
     font-weight: 400;
   }
+  .logo-a:hover {
+    cursor: pointer;
+  }
   .main-nav li:hover {
     cursor: pointer;
     color: #ff8979;
