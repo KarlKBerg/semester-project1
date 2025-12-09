@@ -140,7 +140,7 @@
   }
   /* ==== UTILITY CLASSES ==== */
   .mg-tb {
-    margin: 12rem 0 8rem 14.6rem;
+    margin: 12rem 0 8rem 14.8rem;
   }
   .mg-top {
     margin-top: 12rem;
@@ -258,7 +258,7 @@
     flex-direction: row;
     justify-content: space-between;
     border-radius: 2rem;
-    padding: var(--space-lg) 116px;
+    padding: var(--space-lg) 14.8rem;
     gap: var(--space-xxl);
     align-items: center;
   }
