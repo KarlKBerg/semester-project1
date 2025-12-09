@@ -68,6 +68,9 @@
   .article-card-desktop img {
     display: block;
   }
+  .vital-info #opening-times {
+    margin-top: 0;
+  }
   /* ==== ABOUT ==== */
   #our-vision p {
     padding: 0 148px;
