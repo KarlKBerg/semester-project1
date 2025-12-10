@@ -70,8 +70,7 @@ hr {
   align-items: center;
   justify-content: center;
   gap: var(--space-xs);
-
-  font-size: 32px;
+  font-size: var(--font-md);
   font-weight: 700;
   margin-top: var(--space-sm);
   padding-bottom: 1.6rem;
@@ -156,7 +155,7 @@ header {
 /* Card styles */
 .card-heading {
   text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-  font-size: 32px;
+  font-size: var(--font-md);
   font-weight: 400;
 }
 .article-card h2 {
@@ -208,7 +207,7 @@ article img {
   align-items: center;
 }
 .info-card form label {
-  font-size: 24px;
+  font-size: var(--font-sm);
   font-weight: 400;
   line-height: 157.165%;
 }
@@ -216,7 +215,7 @@ article img {
   width: 100%;
   max-width: 71rem;
   background: #fff;
-  border-radius: 5px;
+  border-radius: 0.5rem;
   border: 1px solid #000;
   margin-bottom: var(--space-sm);
   padding: 0.5rem;
@@ -254,7 +253,7 @@ footer a:hover {
 /* ==== HEADINGS ==== */
 .page-heading {
   font-family: "Space Mono";
-  font-size: 56px;
+  font-size: var(--font-lg);
   font-weight: 700;
   text-align: center;
   margin: var(--space-lg) 0;
@@ -275,7 +274,7 @@ footer a:hover {
   margin-top: var(--space-md);
 }
 .visit-section {
-  font-size: 24px;
+  font-size: var(--font-sm);
   font-weight: 400;
   line-height: 157.165%;
 }
@@ -340,7 +339,7 @@ footer a:hover {
 }
 .date-heading,
 .date-heading-left {
-  font-size: 24px;
+  font-size: var(--font-sm);
   font-weight: 700;
   text-align: right;
 }
@@ -415,7 +414,7 @@ footer a:hover {
   font-size: 2rem;
 }
 .contact-message p {
-  font-size: 24px;
+  font-size: var(--font-sm);
   font-weight: 400;
 }
 .contact-info {
