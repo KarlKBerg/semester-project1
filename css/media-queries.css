@@ -56,12 +56,12 @@
   .vital-info {
     display: flex;
     justify-content: center;
-    gap: 248px;
+    gap: 24.8rem;
   }
   .section-heading {
     justify-content: flex-start;
     text-align: left;
-    margin-left: 148px;
+    margin-left: 14.8rem;
   }
   #find-us,
   #opening-times {
@@ -79,7 +79,7 @@
     width: 71rem;
   }
   .visit-info-card {
-    padding-left: 148px;
+    padding-left: 14.8rem;
   }
   .article-card-desktop img {
     display: block;
@@ -89,14 +89,14 @@
   }
   /* ==== ABOUT ==== */
   #our-vision p {
-    padding: 0 148px;
+    padding: 0 14.8rem;
   }
   .get-involved {
     padding: var(--space-md) 0;
   }
   .get-involved p,
   .get-involved .card-heading {
-    padding: 0 148px;
+    padding: 0 14.8rem;
   }
   /* ==== ABOUT ==== */
   .contact-section {
@@ -184,7 +184,7 @@
     justify-content: space-between;
     margin: 0 var(--space-md);
     border-radius: 2rem;
-    padding: var(--space-lg) 116px;
+    padding: var(--space-lg) 11.6rem;
     gap: var(--space-xxl);
     align-items: center;
   }
@@ -229,7 +229,7 @@
   }
   .practical-container {
     display: flex;
-    margin: 0 148px;
+    margin: 0 14.8rem;
     justify-content: space-between;
   }
   .left-side {
@@ -243,7 +243,7 @@
     gap: var(--space-xxl);
   }
   .practical-info-container {
-    width: 448px;
+    width: 44.8rem;
   }
   .teachers-and-researchers {
     display: flex;
