@@ -26,7 +26,6 @@ hr {
 }
 /* Mobile nav */
 #mobile-menu {
-  display: flex;
   flex-direction: column;
   align-items: center;
   display: none;
@@ -46,7 +45,6 @@ hr {
 .close-btn-heading {
   display: flex;
   align-items: center;
-  margin: var(--space-sm --space-xs);
 }
 .close-btn-heading h2 {
   text-align: center;
@@ -55,13 +53,24 @@ hr {
 #mobile-menu:target {
   display: block;
 }
+.mobile-nav-items,
+.main-heading,
+.section-heading,
+.card-heading,
+.info-heading,
+.date-heading,
+.date-heading-left,
+.contact-section label,
+#success-message {
+  font-family: var(--heading-font);
+}
 .mobile-nav-items {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: var(--space-xs);
-  font-family: var(--heading-font);
+
   font-size: 32px;
   font-weight: 700;
   margin-top: var(--space-sm);
@@ -111,18 +120,15 @@ header {
 .main-heading {
   font-size: var(--font-lg);
   color: var(--primary-txt);
-  font-family: var(--heading-font);
   font-weight: 700;
 }
 .section-heading {
-  font-family: var(--heading-font);
   font-size: var(--font-md);
   font-weight: 700;
   display: flex;
   justify-content: center;
 }
 .card-heading {
-  font-family: var(--heading-font);
   font-size: var(--font-md);
   font-weight: 400;
   text-align: center;
@@ -150,7 +156,6 @@ header {
 /* Card styles */
 .card-heading {
   text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-  font-family: var(--heading-font);
   font-size: 32px;
   font-weight: 400;
 }
@@ -256,7 +261,6 @@ footer a:hover {
 }
 /* ==== VISIT SECTION ==== */
 .info-heading {
-  font-family: var(--heading-font);
   font-size: var(--font-md);
   font-weight: 700;
   justify-content: center;
@@ -336,7 +340,6 @@ footer a:hover {
 }
 .date-heading,
 .date-heading-left {
-  font-family: var(--heading-font);
   font-size: 24px;
   font-weight: 700;
   text-align: right;
@@ -385,7 +388,6 @@ footer a:hover {
   flex-direction: column;
 }
 .contact-section label {
-  font-family: var(--heading-font);
   font-size: var(--font-sm);
   font-weight: 700;
   margin-bottom: 0.8rem;
@@ -438,7 +440,6 @@ footer a:hover {
   left: 50%;
   transform: translateX(-50%);
   background-color: #7aff59;
-  font-family: var(--heading-font);
   font-size: var(--font-sm);
   font-weight: 700;
   padding: var(--space-xs);
