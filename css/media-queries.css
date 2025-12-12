@@ -24,9 +24,6 @@
   .page-heading {
     margin: var(--space-xl) 0;
   }
-  .article-card-desktop img {
-    width: 56rem;
-  }
   /* Navigation */
   .main-nav ul {
     display: flex;
@@ -83,6 +80,7 @@
   }
   .article-card-desktop img {
     display: block;
+    width: 56rem;
   }
   .vital-info #opening-times {
     margin-top: 0;
@@ -184,9 +182,14 @@
     justify-content: space-between;
     margin: 0 var(--space-md);
     border-radius: 2rem;
-    padding: var(--space-lg) 11.6rem;
+    padding: 0 11.6rem;
     gap: var(--space-xxl);
     align-items: center;
+  }
+  .bcg-green,
+  .bcg-blue {
+    padding-top: var(--space-lg);
+    padding-bottom: var(--space-lg);
   }
   .card-description {
     display: flex;
