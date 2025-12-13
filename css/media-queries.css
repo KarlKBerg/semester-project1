@@ -209,6 +209,9 @@
     order: 1;
   }
   /* ==== INFO CARDS ==== */
+  .info-card {
+    margin-top: var(--space-xxl);
+  }
   .info-card h2,
   .info-card p {
     width: 68rem;
