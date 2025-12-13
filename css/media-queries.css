@@ -220,6 +220,9 @@
     text-align: center;
   }
   /* Events */
+  #events .info-card {
+    margin-top: 0;
+  }
   #events .info-card .info-container {
     display: flex;
     justify-content: space-between;
