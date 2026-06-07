@@ -79,8 +79,8 @@
 .button-md:hover,
 .button-lg:hover,
 .send-button:hover {
-  border: 2px solid #0067ff;
-  background: #7baef9;
+  background: #0067ff;
+  color: white;
 }
 .button-sm:active,
 .button-md:active,
